@@ -1,0 +1,116 @@
+views:
+  - type: cards
+    name: FIC
+    filters:
+      and:
+        - from == "fic"
+    order:
+      - file.basename
+      - curso
+    sort:
+      - property: curso
+        direction: DESC
+    image: note.cover
+    imageAspectRatio: 1
+    imageFit: ""
+  - type: cards
+    name: MaD
+    filters:
+      and:
+        - asignatura == "MaD"
+    imageFit: ""
+  - type: cards
+    name: PDS
+    filters:
+      and:
+        - asignatura == "PDS"
+  - type: cards
+    name: SIE
+    filters:
+      and:
+        - asignatura == "SIE"
+  - type: cards
+    name: SN
+    filters:
+      and:
+        - asignatura == "SN"
+  - type: cards
+    name: CP
+    filters:
+      and:
+        - asignatura == "CP"
+  - type: cards
+    name: SI
+    filters:
+      and:
+        - asignatura == "SI"
+  - type: cards
+    name: MeD
+    filters:
+      and:
+        - asignatura == "MeD"
+  - type: cards
+    name: DS
+    filters:
+      and:
+        - asignatura == "DS"
+  - type: cards
+    name: SO
+    filters:
+      and:
+        - asignatura == "SO"
+  - type: cards
+    name: IPM
+    filters:
+      and:
+        - asignatura == "IPM"
+  - type: cards
+    name: ISD
+    filters:
+      and:
+        - asignatura == "ISD"
+  - type: cards
+    name: LSI
+    filters:
+      and:
+        - asignatura == "LSI"
+  - type: cards
+    name: XP
+    filters:
+      and:
+        - asignatura == "XP"
+  - type: cards
+    name: ACL
+    filters:
+      and:
+        - asignatura == "ACL"
+  - type: cards
+    name: AS
+    filters:
+      and:
+        - asignatura == "AS"
+  - type: cards
+    name: BDA
+    filters:
+      and:
+        - asignatura == "BDA"
+  - type: cards
+    name: ER
+    filters:
+      and:
+        - asignatura == "ER"
+  - type: cards
+    name: PA
+    filters:
+      and:
+        - asignatura == "PA"
+  - type: cards
+    name: VVS
+    filters:
+      and:
+        - asignatura == "VVS"
+  - type: cards
+    name: FD
+    filters:
+      and:
+        - asignatura == "FD"
